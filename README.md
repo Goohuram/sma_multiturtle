@@ -1,7 +1,10 @@
 
 cd catkin_ws/src
+
 git clone https://github.com/Goohuram/sma_multiturtle.git
+
 cd ..
+
 catkin_make
 
 roslaunch sma_multiturtle launch_gazebo.launch
